@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.736" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US001 Goggle Sayfasi Testi" name="TC01 Arama Kutusunda Volvo Aratilir" time="10.56">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at techproed.stepDefinition.GoogleStepDefinition.kullaniciSayfaBasligininIcerdiginiTestEder(GoogleStepDefinition.java:39)
+	at ✽.kullanici sayfa basliginin "arac1" icerdigini test eder(file:///Users/fatihgun/IdeaProjects/B151Cucumber/src/test/resources/features/day32_Properties_ScenarioOutlineKulanimi/US001_PropertiesKullanimi.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given kullanici "googleUrl" sayfasina properties ile gider..................passed
+And kullanici 2 saniye bekler...............................................passed
+And kullanici cerezleri kapatir.............................................passed
+Then kullanici arama kutusunda "arac2" aratir...............................passed
+And kullanici sayfa basliginin "arac1" icerdigini test eder.................failed
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
